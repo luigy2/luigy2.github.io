@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carbo-Киров</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="abimate.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="media-queries.css" type="text/css">
+	<script src="wow-min.js"></script>
+	<script src=jQuery.js></script>
+	<script src="script.js"></script>
+</head>
+<body style="background-attachment:fixed" topmargin="0%";>
+	<div id="menu_cont">
+		<img src="image/logo.jpg" alt="">
+		<div id="menu">
+			<a href="index.html" id="bt">На главную</a>
+			<a href="#buy" id="bt">Оформить заказ</a>
+			<a href="#footer" id="bt">Подробнее о нас</a>
+		</div>
+	</div>
+	<div id="content">
+		<div id="prod_cont">
+			<div id="prod_box1" style="height: 400px; display: flex;">
+				<div id="dis_prod">
+						<div id="marker"></div>
+						<div id="border"></div>
+					</div>
+				<div style="color: white; margin-left: 20px;">				
+					<div style="width: 500px;"><h2>Производим ремонт оборудования и техники материалами Carbo</h2></div>
+					<a href="#buy"><button style="background-color: #2c2c2c">Оставить заявуку на ремонт</button></a>
+				</div>
+				<img src="image/PR.jpg" alt="" style="position: absolute; right: 0;">	
+			</div>
+		</div>
+		<div id="prod_cont">
+				<div id="prod_box1">
+					<div id="dis_prod">
+						<div id="marker"></div>
+						<div id="border"></div>
+					</div>
+					<div id="prod_box_cont">
+						<h2>ЭЛЕКТРОДЫ</h2>
+						<a href="prod1.html"><p>Сварка чугуна</p></a>
+						<a href="prod1.html#carbo2"><p>Резка, строжка</p></a>
+						<a href="prod1.html#carbo3"><p>Сварка конструкционных нелегированных сталей</p></a>
+						<a href="prod1.html#carbo4"><p>Сварка аллюминия</p></a>
+						<a href="prod1.html#carbo5"><p>Сварка меди</p></a>
+						<a href="prod1.html#carbo6"><p>Сварка нержавеющих сталей</p></a>
+						<a href="prod1.html#carbo7"><p>Сварка разнородных сталей</p></a>
+						<a href="prod1.html#carbo8"><p>Защита от абразивных и ударных нагрузок</p></a>
+					</div>
+					<div id="img_border1"></div>
+					<div id="image1"><img src="image/elekt.jpg"></div>
+				</div>
+			<a href="prod2.html" >
+				<div id="prod_box1">
+					<div id="dis_prod">
+						<div id="marker"></div>
+						<div id="border"></div>
+					</div>
+					<div id="prod_box_cont">
+						<h2>ПОРОШКОВАЯ ПРОВОЛОКА</h2>
+						<p>Буферные сплавы</p>
+						<p>Восстановление геометрии</p>
+						<p>Износ «металл по металлу»</p>
+						<p>Режущие кромки, износ «металл по металлу»</p>
+						<p>Удар + «металл по металлу»</p>
+						<p>Термическая усталость + «трение металл по металлу»</p>
+						<p>Ударный износ</p>
+						<p>Абразив + ударный износ</p>
+					</div>
+					<div id="dis_prod">
+						<div id="marker"></div>
+						<div id="border"></div>
+					</div>
+					<div id="prod_box_cont2">
+						<p>Интенсивный абразивный износ</p>
+						<p>Давление + абразивный износ</p>
+						<p>Высокотемпературный износ</p>
+						<p>Сварка и реконструкция марганцовистых сталей</p>
+						<p>Износостойкая наплавка марганц. сталей</p>
+						<p>Сварка, наплавка чугуна</p>
+						<p>Ремонтная сварка-наплавка</p>
+						<p>Никелевые ремонтные сплавы</p>
+					</div>
+					<div id="img_border2"></div>
+					<div id="image1"><img src="image/prov.jpg"></div>
+				</div>
+			</a>
+			<div id="prod_box1">
+				<div id="dis_prod">
+					<div id="marker"></div>
+					<div id="border"></div>
+				</div>
+				<div id="prod_box_cont">
+					<h2>КАТАЛОГИ</h2>
+					<p style="width: 300px; height: 200px;">Посмотрите наш каталог с подробным описанием всех продуктов и выберите то что вам нужно.</p>
+					<div>
+						<div style="width: 1000px; height: 250px; display: flex;">
+							<a href="katalog carbo Small.pdf"><div style="z-index: 10; color: #fff; margin-top: -50px;"><img src="image/Katalog.png" alt="" style="margin-right: 200px;"></div></a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="buy">
+		<div id="send_form">
+			<form>
+
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="ООО Кристалл">
+				<input type="hidden" name="admin_email" value="43kristall@mail.com">
+				<input type="hidden" name="form_subject" value="Form Subject">
+				<!-- END Hidden Required Fields -->
+
+				<input type="text" name="Name" placeholder="Ваше имя" required><br>
+
+				<input type="text" name="Family" placeholder="Вашa фамилия" required><br>
+				
+
+				<input type="text" name="Phone" placeholder="Ваш контактный телефон" required><br>
+
+				<input type="text" name="Org" placeholder="Организация" required><br>
+				
+				<input type="text" name="Job" placeholder="Должность" required><br>
+				
+				<input type="text" name="E-mail" placeholder="Ваш E-mail" required><br>
+				
+				<textarea type="text" name="Massage" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+
+				<button>Отправить</button>
+	
+			</form>
+		</div>
+		<div id="text_form">
+				<h2>Нашли то, что вам нужно?</h2>
+				<p>Пишите нам, чтобы оформить заказ</p>
+				<p>Наш специалист оформит Bаш заказ в течении суток</p>
+		</div>
+		<div id="text_form">
+				<h2>Не смогли найти то, что вам нужно?</h2>
+				<p>Опишите нам Bашу проблему</p>
+				<p>И наш специалист подберёт для Bас необходимые материалы</p>
+		</div>
+	</div>
+	<div id="footer">
+		<h2>Информация</h2>
+		<p>Наименование организации краткое: ООО "РСТ"</p>
+		<p>Наименование организации полное: Общество с ограниченой ответсвенностью "РЕСУРССТРОЙГАЗ"</p>
+		<p>Юридический адрес: 610027, Кировская обл., г.Киров, ул.К.Маркса, дом №99, офис 503.</p>
+		<p>ОГРН:  1074345022047 </p>
+		<p>ИНН/КПП:  4345178017/434501001 </p>
+		<p>Директор:  Прохоренко Наталья Викторовна </p>
+		<p>Расчетный счет:  4070281090020009099 </p>
+		<p>Наименование банка: АО КБ «Хлынов» г.Киров </p>
+		<p>Кор.счет:  30101810100000000711 </p>
+		<p>БИК:  043304711 </p>
+		<p>Контакты: 8-912-822-99-44, natalikirov@yandex.ru; 8-953-673-12-31, 43kristall@mail.ru 
+		</p>
+	</div>
+	<script src="jQuery.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

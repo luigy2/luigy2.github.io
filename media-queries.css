@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1441px){
+ #colom{
+	width: 25%;
+	height: 100%
+	margin-right: 10px;
+	background-color: #3e3d3d;
+	color: #fff;
+	text-align: center;
+}
+#prod_box_cont{
+	font-size: 15px;
+ }
+#colom img{
+	width: auto;
+	height: 190px;
+}
+}
+
+@media screen and (device-width: 1000px ) {
+}
+
+@media only screen and (max-width: 370px){
+
+}
